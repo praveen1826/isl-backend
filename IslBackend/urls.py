@@ -21,5 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('predict/', views.predict, name='predict'),
     path('predictV2/', views.predictV2, name='predictV2'),
-    path('form/',views.form_view,name='form_view'),
+    path('predictV3/', views.predictV3, name='predictV3'),
+    path('predictV4/', views.predictV4, name='predictV4'),
+    path('form/', views.form_view, name='form_view'),
 ]
